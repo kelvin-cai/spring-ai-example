@@ -21,6 +21,15 @@
       "env": {
         "AMAP_MAPS_API_KEY": ""
       }
+    },
+    "filesystem": {
+      "command": "npx.cmd",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "C:/Users/kelvin/Desktop",
+        "C:/Users/kelvin/Desktop"
+      ]
     }
   }
 }
